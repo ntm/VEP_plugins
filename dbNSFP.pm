@@ -164,6 +164,7 @@ my %NON_TRANSCRIPT_SPECIFIC_FIELDS = map {$_ => 1} qw(
   Transcript_id_VEST3
   Transcript_var_VEST3
   VEST3_score
+  dbNSFP_POPMAX_POP
 );
 
 sub new {
